@@ -89,9 +89,7 @@ def delete_todo(todo_id: int, db: Session = Depends(get_db)):
     db.commit()
 
     return db_todo
-
-#####end
-
+#hence
 
 
 
